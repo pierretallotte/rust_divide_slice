@@ -2,7 +2,7 @@
 name = "divide_slice"
 description = "Provides methods to divide a slice into portions of same size"
 license = "MIT OR Apache-2.0"
-version = "0.1.2"
+version = "0.1.3"
 edition = "2024"
 repository = "https://github.com/pierretallotte/rust_divide_slice"
 

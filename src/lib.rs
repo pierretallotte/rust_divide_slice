@@ -1,11 +1,4 @@
-//! Divide_slice provides two additional methods to the primitive type [slice]:
-//!  * [`divide`]: divide a slice into `n` non-overlapping portions, returning an iterator.
-//!  * [`divide_mut`]: divide a slice into `n` mutable non-overlapping portions, returning an iterator.
-//! 
-//! [slice]: slice
-//! [`divide`]: Divide::divide
-//! [`divide_mut`]: Divide::divide_mut
-
+#![doc = include_str!("../README.md")]
 #![feature(raw_slice_split)]
 
 use std::marker::PhantomData;

@@ -10,6 +10,8 @@ The standard library provides the methods [`chunks`](https://doc.rust-lang.org/s
 
 The difference between `chunks` and `divide` is that you determine the size of the chunks with `chunks`, and the number of subslices you want with `divide`:
 ```rust
+use divide_slice::Divide;
+
 let slice = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 let mut iter = slice.chunks(3);
